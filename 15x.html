@@ -1,0 +1,84 @@
+<!--BRR-->
+<html>
+<head>
+    <script src="15x.js.js"></script>
+    <style>
+        input
+        {
+           
+            width:70px;
+            height:70px;
+            color:black;
+            font-size:inherit;
+            font-family:Elephant;
+        }
+        button {
+            width: 50px;
+            height: 50px;
+            background-color:tan;
+            margin-left:-3px;
+            font-family:Elephant;
+            
+        }
+        .blok
+        {
+            margin-left:300px;
+            
+        }
+        .game
+        {
+           
+            width:138px;
+            height:40px;
+        }
+        .ochko
+        {
+            margin-top:-20px;
+        }
+        .rasm
+        {
+            background-color:#0f9ba4;
+            
+        }
+        b {
+            padding-left: 20px;
+            font-size: larger;
+            font-family: Elephant;
+        }
+    </style>
+</head>
+<body onload="qiymat()">
+    
+    <br /><br />
+    <b class="blok">Xod:</b><b id="xodi"></b>
+    <div  class="blok">
+        <button value="" id="id00" onclick="bir(0,0)"></button>
+        <button value="" id="id01" onclick="bir(0,1)"></button>
+        <button value="" id="id02" onclick="bir(0,2)"></button>
+        <button value="" id="id03" onclick="bir(0,3)"></button>
+        <br />
+
+        <button value="" id="id10" onclick="bir(1,0)"></button>
+        <button value="" id="id11" onclick="bir(1,1)"></button>
+        <button value="" id="id12" onclick="bir(1,2)"></button>
+        <button value="" id="id13" onclick="bir(1,3)"></button>
+        <br />
+        <button value="" id="id20" onclick="bir(2,0)"></button>
+        <button value="" id="id21" onclick="bir(2,1)"></button>
+        <button value="" id="id22" onclick="bir(2,2)"></button>
+        <button value="" id="id23" onclick="bir(2,3)"></button>
+        <br />
+        <button value="" id="id30" onclick="bir(3,0)"></button>
+        <button value="" id="id31" onclick="bir(3,1)"></button>
+        <button value="" id="id32" onclick="bir(3,2)"></button>
+        <button value="" id="id33" onclick="bir(3,3)"></button>
+        <br />
+
+    </div>
+    <button value="ok" onclick="Boshlash()"></button>
+    <div id="ma">
+
+    </div>
+    
+</body>
+</html>
